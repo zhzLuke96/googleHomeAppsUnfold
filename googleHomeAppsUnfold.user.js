@@ -2,7 +2,7 @@
 // @author          zhzLuke96
 // @name            展开Google首页app列表
 // @name:en         unfold google home page apps
-// @version         0.1
+// @version         0.2
 // @description     展开google首页app列表.
 // @description:en  unfold google homepage apps list.
 // @namespace       https://github.com/zhzLuke96/
@@ -15,7 +15,7 @@
     'use strict';
     const $ = q => document.querySelector(q);
 
-    const topBtnTpl = $("#gbw > div > div > div.gb_9d.gb_g.gb_yg.gb_pg > div:nth-child(1)");
+    const topBtnTpl = $("#gbw > div > div > div:nth-child(1) > div:nth-child(1)");
 
     const googleHomeAppLs = [{
         name: "🗺️GMaps",
